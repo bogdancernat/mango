@@ -13,13 +13,7 @@
       }
  
     
-      Move();
-      
- }
- 
- function Move()
- {
-      var StartPosition : Vector3 = transform.position;
+     var StartPosition : Vector3 = transform.position;
       var EndPosition : Vector3 = MouseCoords;
       var t : float = 0.0;
  
@@ -30,3 +24,5 @@
       yield;
       }
  }
+ 
+ 
