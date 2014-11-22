@@ -54,13 +54,12 @@ function Update () {
 }
 function Move()
 {
-	if(Input.GetMouseButton(0))
-	{
-	  transform.Translate(-1 * transform.right * characterSpeed * Time.deltaTime);
+	
+	  //transform.Translate(-1 * transform.right *characterSpeed* Time.deltaTime);
 	  var distance : float = transform.position.z - Camera.main.transform.position.z;
       targetPos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, distance);
       targetPos = Camera.main.ScreenToWorldPoint(targetPos);
-      transform.position = Vector3.MoveTowards (transform.position, targetPos, MoveSpeed * Time.deltaTime);
-    }
+      transform.position = Vector3.MoveTowards (transform.position, targetPos, characterSpeed * Time.deltaTime);
+    
 }
 
