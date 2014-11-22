@@ -32,7 +32,7 @@ function Update () {
 //	Debug.Log(transform.position.y);
 	var backgroundRef: GameObject = planes[planes.Count - 1];
 	
-	if((backgroundRef.transform.position.x + backgroundWidth) < (transform.position.x + cameraWidth)) {
+	if((backgroundRef.transform.position.x + backgroundWidth) < (Camera.main.transform.position.x + cameraWidth)) {
 		var clone: GameObject = GameObject.Instantiate(background, backgroundRef.transform.position + backgroundWidth * Vector3.right, backgroundRotation);
 		planes.Add(clone.gameObject);
 		clone.name = "Background-"+planes.Count;
