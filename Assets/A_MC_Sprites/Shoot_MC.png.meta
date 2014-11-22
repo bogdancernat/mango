@@ -1,12 +1,10 @@
 fileFormatVersion: 2
-guid: 9e3c1b25e8579b74e84365e6266619fc
+guid: 9e686697fd480ed47bdbb4d403d28431
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Idle_MC_0
-    21300002: Idle_MC_1
-    21300004: Idle_MC_2
-    21300006: Idle_MC_3
-    21300008: Idle_MC_4
+    21300000: Shoot_MC_0
+    21300002: Shoot_MC_1
+    21300004: Shoot_MC_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -48,55 +46,35 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Idle_MC_0
+    - name: Shoot_MC_0
       rect:
         serializedVersion: 2
-        x: 14
+        x: 24
+        y: 16
+        width: 51
+        height: 106
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shoot_MC_1
+      rect:
+        serializedVersion: 2
+        x: 124
         y: 14
-        width: 44
-        height: 72
+        width: 57
+        height: 107
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle_MC_1
+    - name: Shoot_MC_2
       rect:
         serializedVersion: 2
-        x: 87
+        x: 227
         y: 14
-        width: 44
-        height: 71
+        width: 58
+        height: 109
       alignment: 7
-      pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle_MC_2
-      rect:
-        serializedVersion: 2
-        x: 158
-        y: 14
-        width: 44
-        height: 72
-      alignment: 7
-      pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle_MC_3
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 13
-        width: 47
-        height: 74
-      alignment: 7
-      pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Idle_MC_4
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 13
-        width: 45
-        height: 73
-      alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
