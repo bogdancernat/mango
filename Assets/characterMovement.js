@@ -1,7 +1,7 @@
 ﻿#pragma strict
  var MouseCoords : Vector3;
  var MoveSpeed : float = 3.0;
-var characterSpeed: float;
+var characterSpeed: float = 5.0f;
 private var background: GameObject;
 private var cameraWidth: float;
 
